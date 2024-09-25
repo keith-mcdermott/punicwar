@@ -78,7 +78,7 @@ function init() {
     }
 
     // Create data layers
-    territoryLayer=fetchGeoJSON('./data/territories.json','Territories (Pre-War)','Yes')
+    territoryLayer=fetchGeoJSON('./data/territories.json','Territories (Pre-War)',)
     postterritoryLayer=fetchGeoJSON('./data/territories_post.json','Territories (Post-War)',)
     battlesLayer = fetchGeoJSON('./data/battles.json','Battles','Yes')
 
